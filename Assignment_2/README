@@ -1,0 +1,11 @@
+README:
+
+Name: Wonjae Choi
+Student ID: 2020147530
+
+Description:
+This program implements a mandatory access control tool called 'mac' to enforce read-down, write-up policies on documents with different security classification levels. The program is designed to work on Ubuntu 22.04 with gcc installed.
+
+The mac tool checks the user's security clearance level based on the mac.policy file and allows or denies access to the specified document accordingly. It also maintains a log file for each user with their access attempts.
+
+To compile the program, simply run 'make' in the terminal. This will create an executable called 'mac'. Before using the mac tool, ensure that the file permissions and ownership of the executable, data files, and policy file are set correctly as specified in the assignment description.
